@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://40u51ep0021f"
+path="res://.godot/imported/POLICE WARNING 4.mp3-3c597aa2d1b82373d0d7c3bfec87f473.mp3str"
+
+[deps]
+
+source_file="res://POLICE WARNING 4.mp3"
+dest_files=["res://.godot/imported/POLICE WARNING 4.mp3-3c597aa2d1b82373d0d7c3bfec87f473.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

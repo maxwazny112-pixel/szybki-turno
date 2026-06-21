@@ -1,0 +1,11 @@
+Model Information:
+* title:	burnout 3 - silver lake
+* source:	https://sketchfab.com/3d-models/burnout-3-silver-lake-b6bd3c3286cc44129cd4005f721359bd
+* author:	amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "burnout 3 - silver lake" (https://sketchfab.com/3d-models/burnout-3-silver-lake-b6bd3c3286cc44129cd4005f721359bd) by amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

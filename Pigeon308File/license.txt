@@ -1,0 +1,11 @@
+Model Information:
+* title:	2000 Peugeot 206
+* source:	https://sketchfab.com/3d-models/2000-peugeot-206-513b76a9909049f49327c0b83bc5b56b
+* author:	tonielpro520 (https://sketchfab.com/tonielpro520)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "2000 Peugeot 206" (https://sketchfab.com/3d-models/2000-peugeot-206-513b76a9909049f49327c0b83bc5b56b) by tonielpro520 (https://sketchfab.com/tonielpro520) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

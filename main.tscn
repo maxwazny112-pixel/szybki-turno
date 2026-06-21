@@ -1,0 +1,1045 @@
+[gd_scene format=3 uid="uid://bug6sm2jiq6em"]
+
+[ext_resource type="Script" uid="uid://cielouwcq4rl" path="res://PlayerCar.gd" id="1_0xm2m"]
+[ext_resource type="AudioStream" uid="uid://7xe5hv1xffo5" path="res://intro.mp3" id="2_dg77c"]
+[ext_resource type="AudioStream" uid="uid://c3i0jf0b8q4oj" path="res://engine_loop.mp3" id="2_lswn8"]
+[ext_resource type="AudioStream" uid="uid://degglwjgvs6xs" path="res://RadioMusic/Cradles.mp3" id="3_2cqfq"]
+[ext_resource type="Script" uid="uid://vogbpkljt2mx" path="res://environment_manager.gd" id="3_h2yge"]
+[ext_resource type="AudioStream" uid="uid://pbbq6td6gnwa" path="res://RadioMusic/Training Day.mp3" id="3_ycdy4"]
+[ext_resource type="Script" uid="uid://2dutplp5foj5" path="res://CameraGimbal.gd" id="4_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://5ghjnjca5kap" path="res://Dominator/scene.gltf" id="4_5vw27"]
+[ext_resource type="AudioStream" uid="uid://byh6eny66o6rs" path="res://horn.mp3" id="4_lquwl"]
+[ext_resource type="AudioStream" uid="uid://bi6ys21xy7l51" path="res://RadioMusic/Wanna Do.mp3" id="5_yaehf"]
+[ext_resource type="PackedScene" uid="uid://b1ipglfg51obf" path="res://SilverLake/scene.gltf" id="6_272bh"]
+[ext_resource type="AudioStream" uid="uid://2vynsco6uwyf" path="res://RadioMusic/Fantaisie Impromptu.mp3" id="6_cegan"]
+[ext_resource type="Script" uid="uid://byjbkf0uau7fh" path="res://MapBuilder.gd" id="7_5vw27"]
+[ext_resource type="AudioStream" uid="uid://bamgyw2nov2c3" path="res://RadioMusic/Mokka.mp3" id="7_82xsv"]
+[ext_resource type="Script" uid="uid://c470aifrth1cx" path="res://SpawnPoint.gd" id="8_5vw27"]
+[ext_resource type="AudioStream" uid="uid://cj56o86darsob" path="res://RadioMusic/CyberTime.mp3" id="8_getpj"]
+[ext_resource type="AudioStream" uid="uid://drk1o5evnv4q2" path="res://silver_intro.mp3" id="9_82xsv"]
+[ext_resource type="Script" uid="uid://crayl7ugmbw8f" path="res://Minimap.gd" id="9_ycdy4"]
+[ext_resource type="AudioStream" uid="uid://clsihqc8272al" path="res://cosa_intro.mp3" id="11_0cbny"]
+[ext_resource type="Script" uid="uid://cty4slm41uijv" path="res://SpeedTrapUI.gd" id="14_1u8w0"]
+[ext_resource type="Script" uid="uid://cdyr8xp2u2s31" path="res://LoadingScreen.gd" id="14_w48qg"]
+[ext_resource type="AudioStream" uid="uid://dvu35fbr2gdxi" path="res://mww_logo_sound.mp3" id="15_vivmo"]
+[ext_resource type="Script" uid="uid://hhd308rciahq" path="res://MainMenu.gd" id="16_2cqfq"]
+[ext_resource type="PackedScene" uid="uid://bwa0f8ecof2b8" path="res://Pigeon308File/scene.gltf" id="16_4lmeg"]
+[ext_resource type="PackedScene" uid="uid://cvvyo8uwohfq" path="res://ShittaRapid/scene.gltf" id="17_0cp0l"]
+[ext_resource type="PackedScene" uid="uid://buu3rcsmkq6jh" path="res://DAM 1500/scene.gltf" id="18_d2t1y"]
+[ext_resource type="PackedScene" uid="uid://bvcsfh3a4adid" path="res://GoatgenieSenarioSter/scene.gltf" id="19_gngh3"]
+[ext_resource type="PackedScene" uid="uid://p522ww7m8ta0" path="res://CheflorinCaptiveXS/scene.gltf" id="20_0n3wm"]
+[ext_resource type="AudioStream" uid="uid://dne26pr2bs74w" path="res://age_warning_sound.mp3" id="20_d13ii"]
+[ext_resource type="AudioStream" uid="uid://251u7tnbqrt4" path="res://loading_ambient.mp3" id="21_1u8w0"]
+[ext_resource type="AudioStream" uid="uid://ctghbux7cjju5" path="res://menu_click.mp3" id="23_0odxb"]
+[ext_resource type="Script" uid="uid://b7qsjfv1q6wg0" path="res://SpeedTrap.gd" id="25_0odxb"]
+[ext_resource type="Script" uid="uid://finhxhscbw0g" path="res://RaceSystem.gd" id="27_a6jrf"]
+[ext_resource type="Script" uid="uid://b1280th3udftn" path="res://PoliceAI.gd" id="28_kq58d"]
+[ext_resource type="AudioStream" uid="uid://d1rygckoh0jtl" path="res://POLICE WARNING 1.mp3" id="29_facbu"]
+[ext_resource type="PackedScene" uid="uid://pjvi3u628iod" path="res://police_car/scene.gltf" id="29_seu75"]
+[ext_resource type="AudioStream" uid="uid://hdhvs1fsd1ni" path="res://POLICE WARNING 2.mp3" id="30_b1qrp"]
+[ext_resource type="AudioStream" uid="uid://bs5p16ueprpfv" path="res://police-siren-soundbible_CGYFxjf.mp3" id="30_htxhm"]
+[ext_resource type="AudioStream" uid="uid://dwemawdtb4xk4" path="res://POLICE WARNING 3.mp3" id="31_come4"]
+[ext_resource type="AudioStream" uid="uid://40u51ep0021f" path="res://POLICE WARNING 4.mp3" id="32_h8e4i"]
+[ext_resource type="AudioStream" uid="uid://bbcnoq42mwilf" path="res://POLICE WARNING 5.mp3" id="33_4lmeg"]
+[ext_resource type="AudioStream" uid="uid://dyrosep8oh503" path="res://POLICE WARNING 6.mp3" id="34_0cp0l"]
+[ext_resource type="AudioStream" uid="uid://dk6l6kg6hdbad" path="res://POLICE WARNING 7.mp3" id="35_d2t1y"]
+[ext_resource type="AudioStream" uid="uid://cwrq8bkt1icfv" path="res://Spotted.mp3" id="36_come4"]
+[ext_resource type="AudioStream" uid="uid://nily0m5ftvsw" path="res://PoliceLost.mp3" id="37_h8e4i"]
+[ext_resource type="Script" uid="uid://dtxv53k1t3n5r" path="res://GarageSystem.gd" id="41_0cp0l"]
+[ext_resource type="Script" uid="uid://c6d2mn6q8dm4y" path="res://MapCollisionBuilder.gd" id="46_f6a44"]
+[ext_resource type="PackedScene" uid="uid://bmk0kj6u56kwu" path="res://SundownKey/scene.gltf" id="46_wnkbs"]
+[ext_resource type="Script" uid="uid://bsf4u3fhmd1el" path="res://TeleportSystem.gd" id="47_f6a44"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_5vw27"]
+radius = 0.9667969
+height = 4.7507324
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lswn8"]
+size = Vector3(4.454834, 11.670349, 5.8834076)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xuqvo"]
+size = Vector3(34.57544, 11.809448, 1)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jq2sk"]
+radius = 1.0024414
+height = 6.677246
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_4k2k6"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_0rl1p"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4lmeg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f6a44"]
+size = Vector3(3.4796143, 9.766357, 25.814087)
+
+[node name="Main" type="Node3D" unique_id=2016580885]
+
+[node name="PlayerCar" type="CharacterBody3D" parent="." unique_id=1700245228]
+script = ExtResource("1_0xm2m")
+engine_sound = ExtResource("2_lswn8")
+mrf_intro = ExtResource("2_dg77c")
+mrf_songs = Array[AudioStream]([ExtResource("3_2cqfq"), ExtResource("8_getpj"), ExtResource("6_cegan"), ExtResource("7_82xsv"), ExtResource("3_ycdy4"), ExtResource("5_yaehf")])
+silver_intro = ExtResource("9_82xsv")
+cosa_espanola_intro = ExtResource("11_0cbny")
+
+[node name="BasicCollision" type="CollisionShape3D" parent="PlayerCar" unique_id=1847290812]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.034179688, 0.9523509, 0.017318726)
+shape = SubResource("CapsuleShape3D_5vw27")
+
+[node name="CameraGimbal" type="SpringArm3D" parent="PlayerCar" unique_id=1695224467]
+script = ExtResource("4_1bvp3")
+
+[node name="FollowCamera" type="Camera3D" parent="PlayerCar/CameraGimbal" unique_id=1492495572]
+transform = Transform3D(1, 0, 0, 0, 0.97187066, 0.23551531, 0, -0.23551531, 0.97187066, 0, 1.8049718, 3.3336542)
+
+[node name="HornSound" type="AudioStreamPlayer3D" parent="PlayerCar" unique_id=1100197415]
+stream = ExtResource("4_lquwl")
+
+[node name="TireMarkLeft" type="Marker3D" parent="PlayerCar" unique_id=1616447817]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8188032, 0.044313923, 1.3990822)
+
+[node name="TireMarkRight" type="Marker3D" parent="PlayerCar" unique_id=520175584]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7830076, 0.044313923, 1.3990822)
+
+[node name="BasicMesh" parent="PlayerCar" unique_id=519953037 instance=ExtResource("4_5vw27")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Minimap" type="Node" parent="PlayerCar" unique_id=1983304459]
+script = ExtResource("9_ycdy4")
+
+[node name="SpeedTrapUI" type="Node" parent="PlayerCar" unique_id=2095014022]
+script = ExtResource("14_1u8w0")
+
+[node name="Pigeon308" type="CharacterBody3D" parent="." unique_id=315694212]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.723752, 0, 0)
+script = ExtResource("1_0xm2m")
+engine_sound = ExtResource("2_lswn8")
+mrf_intro = ExtResource("2_dg77c")
+mrf_songs = Array[AudioStream]([ExtResource("3_2cqfq"), ExtResource("8_getpj"), ExtResource("6_cegan"), ExtResource("7_82xsv"), ExtResource("3_ycdy4"), ExtResource("5_yaehf")])
+silver_intro = ExtResource("9_82xsv")
+
+[node name="PigeonCollision" type="CollisionShape3D" parent="Pigeon308" unique_id=1256523024]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.034179688, 0.9523509, 0.017318726)
+shape = SubResource("CapsuleShape3D_5vw27")
+
+[node name="CameraGimbal" type="SpringArm3D" parent="Pigeon308" unique_id=255737473]
+script = ExtResource("4_1bvp3")
+
+[node name="FollowCamera" type="Camera3D" parent="Pigeon308/CameraGimbal" unique_id=629038680]
+transform = Transform3D(1, 0, 0, 0, 0.97187066, 0.23551531, 0, -0.23551531, 0.97187066, 0, 1.8049718, 3.3336542)
+
+[node name="HornSound" type="AudioStreamPlayer3D" parent="Pigeon308" unique_id=796088407]
+stream = ExtResource("4_lquwl")
+
+[node name="TireMarkLeft" type="Marker3D" parent="Pigeon308" unique_id=393291011]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8188032, 0.044313923, 1.3990822)
+
+[node name="TireMarkRight" type="Marker3D" parent="Pigeon308" unique_id=513688891]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7830076, 0.044313923, 1.3990822)
+
+[node name="Minimap" type="Node" parent="Pigeon308" unique_id=1469170208]
+script = ExtResource("9_ycdy4")
+
+[node name="SpeedTrapUI" type="Node" parent="Pigeon308" unique_id=443119687]
+script = ExtResource("14_1u8w0")
+
+[node name="PigeonMesh" parent="Pigeon308" unique_id=754639017 instance=ExtResource("16_4lmeg")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0.07761133, 0)
+
+[node name="Object_2" parent="Pigeon308/PigeonMesh/Sketchfab_model/5f97dbbb-0f3b-4ffe-ad35-0c6d5bd6b777_obj_cleaner_materialmerger_gles" parent_id_path=PackedInt32Array(754639017, 1814666148) index="0" unique_id=633501686]
+visible = false
+
+[node name="ShittaRapid" type="CharacterBody3D" parent="." unique_id=1592968531]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.232982, 0, 0)
+script = ExtResource("1_0xm2m")
+engine_sound = ExtResource("2_lswn8")
+mrf_intro = ExtResource("2_dg77c")
+mrf_songs = Array[AudioStream]([ExtResource("3_2cqfq"), ExtResource("8_getpj"), ExtResource("6_cegan"), ExtResource("7_82xsv"), ExtResource("3_ycdy4"), ExtResource("5_yaehf")])
+silver_intro = ExtResource("9_82xsv")
+
+[node name="ShittaCollision" type="CollisionShape3D" parent="ShittaRapid" unique_id=1947585215]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.034179688, 0.9523509, 0.017318726)
+shape = SubResource("CapsuleShape3D_5vw27")
+
+[node name="CameraGimbal" type="SpringArm3D" parent="ShittaRapid" unique_id=1055946485]
+script = ExtResource("4_1bvp3")
+
+[node name="FollowCamera" type="Camera3D" parent="ShittaRapid/CameraGimbal" unique_id=1314183329]
+transform = Transform3D(1, 0, 0, 0, 0.97187066, 0.23551531, 0, -0.23551531, 0.97187066, 0, 1.8049718, 3.3336542)
+
+[node name="HornSound" type="AudioStreamPlayer3D" parent="ShittaRapid" unique_id=576945024]
+stream = ExtResource("4_lquwl")
+
+[node name="TireMarkLeft" type="Marker3D" parent="ShittaRapid" unique_id=1082764953]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8188032, 0.044313923, 1.3990822)
+
+[node name="TireMarkRight" type="Marker3D" parent="ShittaRapid" unique_id=1881152431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7830076, 0.044313923, 1.3990822)
+
+[node name="Minimap" type="Node" parent="ShittaRapid" unique_id=1543114990]
+script = ExtResource("9_ycdy4")
+
+[node name="SpeedTrapUI" type="Node" parent="ShittaRapid" unique_id=1844747622]
+script = ExtResource("14_1u8w0")
+
+[node name="ShittaMesh" parent="ShittaRapid" unique_id=1795640763 instance=ExtResource("17_0cp0l")]
+transform = Transform3D(-45, 0, -3.934025e-06, 0, 45, 0, 3.934025e-06, 0, -45, 0, 0, 0)
+
+[node name="10_car_body_black_plastic_plastic_0" parent="ShittaRapid/ShittaMesh/Sketchfab_model/FINAL_MODEL_fbx/RootNode/10_car_body_black_plastic" parent_id_path=PackedInt32Array(1795640763, 1599829073) index="0" unique_id=1589929000]
+visible = false
+
+[node name="11_car_body_metal_chrome_0" parent="ShittaRapid/ShittaMesh/Sketchfab_model/FINAL_MODEL_fbx/RootNode/11_car_body_metal" parent_id_path=PackedInt32Array(1795640763, 342436080) index="0" unique_id=439789267]
+visible = false
+
+[node name="28_inner_map_c_inner_map_0" parent="ShittaRapid/ShittaMesh/Sketchfab_model/FINAL_MODEL_fbx/RootNode/28_inner_map_c" parent_id_path=PackedInt32Array(1795640763, 2121031710) index="0" unique_id=265466208]
+visible = false
+
+[node name="53_trunk_metal_chrome_0" parent="ShittaRapid/ShittaMesh/Sketchfab_model/FINAL_MODEL_fbx/RootNode/53_trunk_metal" parent_id_path=PackedInt32Array(1795640763, 964319731) index="0" unique_id=912986208]
+visible = false
+
+[node name="Dam1500" type="CharacterBody3D" parent="." unique_id=610326701]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.333115, 0, 0)
+script = ExtResource("1_0xm2m")
+engine_sound = ExtResource("2_lswn8")
+mrf_intro = ExtResource("2_dg77c")
+mrf_songs = Array[AudioStream]([ExtResource("3_2cqfq"), ExtResource("8_getpj"), ExtResource("6_cegan"), ExtResource("7_82xsv"), ExtResource("3_ycdy4"), ExtResource("5_yaehf")])
+silver_intro = ExtResource("9_82xsv")
+
+[node name="DamCollision" type="CollisionShape3D" parent="Dam1500" unique_id=1822386440]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.034179688, 0.9523509, 0.017318726)
+shape = SubResource("CapsuleShape3D_5vw27")
+
+[node name="CameraGimbal" type="SpringArm3D" parent="Dam1500" unique_id=1735326588]
+script = ExtResource("4_1bvp3")
+
+[node name="FollowCamera" type="Camera3D" parent="Dam1500/CameraGimbal" unique_id=597655571]
+transform = Transform3D(1, 0, 0, 0, 0.97187066, 0.23551531, 0, -0.23551531, 0.97187066, 0, 1.8049718, 3.3336542)
+
+[node name="HornSound" type="AudioStreamPlayer3D" parent="Dam1500" unique_id=1390999128]
+stream = ExtResource("4_lquwl")
+
+[node name="TireMarkLeft" type="Marker3D" parent="Dam1500" unique_id=828529035]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8188032, 0.044313923, 1.3990822)
+
+[node name="TireMarkRight" type="Marker3D" parent="Dam1500" unique_id=135362865]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7830076, 0.044313923, 1.3990822)
+
+[node name="Minimap" type="Node" parent="Dam1500" unique_id=1375299988]
+script = ExtResource("9_ycdy4")
+
+[node name="SpeedTrapUI" type="Node" parent="Dam1500" unique_id=1136733264]
+script = ExtResource("14_1u8w0")
+
+[node name="DamMesh" parent="Dam1500" unique_id=689983565 instance=ExtResource("18_d2t1y")]
+transform = Transform3D(-100, 0, -8.742278e-06, 0, 100, 0, 8.742278e-06, 0, -100, 0, 0.06860107, 0)
+
+[node name="ManufacturerPlate_Geo_lodA_RAM_1500TRX_2021ManufacturerPlateA_Material_0" parent="Dam1500/DamMesh/Sketchfab_model/FINAL_MODEL_L_fbx/RootNode/Body_lodA/ManufacturerPlate_Geo_lodA" parent_id_path=PackedInt32Array(689983565, 1368345602) index="0" unique_id=1289078683]
+visible = false
+
+[node name="body3_Badge_Geo_lodABody_lodA_RAM_1500TRX_2021BadgeA_Material_0" parent="Dam1500/DamMesh/Sketchfab_model/FINAL_MODEL_L_fbx/RootNode/body3_Badge_Geo_lodABody_lodA" parent_id_path=PackedInt32Array(689983565, 1905975500) index="0" unique_id=1031553678]
+visible = false
+
+[node name="GoatgenieSenarioSter" type="CharacterBody3D" parent="." unique_id=1256387136]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.218327, 0, 0)
+script = ExtResource("1_0xm2m")
+engine_sound = ExtResource("2_lswn8")
+mrf_intro = ExtResource("2_dg77c")
+mrf_songs = Array[AudioStream]([ExtResource("3_2cqfq"), ExtResource("8_getpj"), ExtResource("6_cegan"), ExtResource("7_82xsv"), ExtResource("3_ycdy4"), ExtResource("5_yaehf")])
+silver_intro = ExtResource("9_82xsv")
+
+[node name="GoatgenieCollision" type="CollisionShape3D" parent="GoatgenieSenarioSter" unique_id=512839422]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.034179688, 0.9523509, 0.017318726)
+shape = SubResource("CapsuleShape3D_5vw27")
+
+[node name="CameraGimbal" type="SpringArm3D" parent="GoatgenieSenarioSter" unique_id=1220416351]
+script = ExtResource("4_1bvp3")
+
+[node name="FollowCamera" type="Camera3D" parent="GoatgenieSenarioSter/CameraGimbal" unique_id=336443570]
+transform = Transform3D(1, 0, 0, 0, 0.97187066, 0.23551531, 0, -0.23551531, 0.97187066, 0, 1.8049718, 3.3336542)
+
+[node name="HornSound" type="AudioStreamPlayer3D" parent="GoatgenieSenarioSter" unique_id=1022531062]
+stream = ExtResource("4_lquwl")
+
+[node name="TireMarkLeft" type="Marker3D" parent="GoatgenieSenarioSter" unique_id=1120410563]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8188032, 0.044313923, 1.3990822)
+
+[node name="TireMarkRight" type="Marker3D" parent="GoatgenieSenarioSter" unique_id=349315659]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7830076, 0.044313923, 1.3990822)
+
+[node name="Minimap" type="Node" parent="GoatgenieSenarioSter" unique_id=1273374058]
+script = ExtResource("9_ycdy4")
+
+[node name="SpeedTrapUI" type="Node" parent="GoatgenieSenarioSter" unique_id=931018390]
+script = ExtResource("14_1u8w0")
+
+[node name="GoatgenieMesh" parent="GoatgenieSenarioSter" unique_id=1353068722 instance=ExtResource("19_gngh3")]
+transform = Transform3D(-120, 0, -1.0490733e-05, 0, 120, 0, 1.0490733e-05, 0, -120, 0, 0, 0)
+
+[node name="untitled_Badge_Geo_lodA_Badge_Geo_lodA_Lamborghini_CentenarioRoadsterAdPersonam_2017BadgeA_Material_untitled_Lamborghini_CentenarioRoadsterAdPersonam_2017BadgeA_Material1_0" parent="GoatgenieSenarioSter/GoatgenieMesh/Sketchfab_model/FINAL_MODEL_R_fbx/RootNode/Object_3/untitled_Badge_Geo_lodA_Badge_Geo_lodA_Lamborghini_CentenarioRoadsterAdPersonam_2017BadgeA_Material" parent_id_path=PackedInt32Array(1353068722, 890716743) index="0" unique_id=782882459]
+visible = false
+
+[node name="untitled_ManufacturerPlate_Geo_lodA_ManufacturerPlate_Geo_lodA_Lamborghini_CentenarioRoadsterAdPersonam_2017Manufactur_4c39941_untitled_Lamborghini_CentenarioRoadsterAdPersonam_2017Manufactur_4c39942_0" parent="GoatgenieSenarioSter/GoatgenieMesh/Sketchfab_model/FINAL_MODEL_R_fbx/RootNode/Object_3/untitled_ManufacturerPlate_Geo_lodA_ManufacturerPlate_Geo_lodA_Lamborghini_CentenarioRoadsterAdPersonam_2017Manufactur_4c39941" parent_id_path=PackedInt32Array(1353068722, 18138176) index="0" unique_id=1765897709]
+visible = false
+
+[node name="CheflorinCaptiveXS" type="CharacterBody3D" parent="." unique_id=631207433]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.599297, 0, 0)
+script = ExtResource("1_0xm2m")
+engine_sound = ExtResource("2_lswn8")
+mrf_intro = ExtResource("2_dg77c")
+mrf_songs = Array[AudioStream]([ExtResource("3_2cqfq"), ExtResource("8_getpj"), ExtResource("6_cegan"), ExtResource("7_82xsv"), ExtResource("3_ycdy4"), ExtResource("5_yaehf")])
+silver_intro = ExtResource("9_82xsv")
+
+[node name="CheflorinCollision" type="CollisionShape3D" parent="CheflorinCaptiveXS" unique_id=1221782141]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.034179688, 0.9523509, 0.017318726)
+shape = SubResource("CapsuleShape3D_5vw27")
+
+[node name="CameraGimbal" type="SpringArm3D" parent="CheflorinCaptiveXS" unique_id=2113426701]
+script = ExtResource("4_1bvp3")
+
+[node name="FollowCamera" type="Camera3D" parent="CheflorinCaptiveXS/CameraGimbal" unique_id=1508059018]
+transform = Transform3D(1, 0, 0, 0, 0.97187066, 0.23551531, 0, -0.23551531, 0.97187066, 0, 1.8049718, 3.3336542)
+
+[node name="HornSound" type="AudioStreamPlayer3D" parent="CheflorinCaptiveXS" unique_id=423927587]
+stream = ExtResource("4_lquwl")
+
+[node name="TireMarkLeft" type="Marker3D" parent="CheflorinCaptiveXS" unique_id=356071359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8188032, 0.044313923, 1.3990822)
+
+[node name="TireMarkRight" type="Marker3D" parent="CheflorinCaptiveXS" unique_id=1465732094]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7830076, 0.044313923, 1.3990822)
+
+[node name="Minimap" type="Node" parent="CheflorinCaptiveXS" unique_id=1408307459]
+script = ExtResource("9_ycdy4")
+
+[node name="SpeedTrapUI" type="Node" parent="CheflorinCaptiveXS" unique_id=83245239]
+script = ExtResource("14_1u8w0")
+
+[node name="CheflorinMesh" parent="CheflorinCaptiveXS" unique_id=235210457 instance=ExtResource("20_0n3wm")]
+transform = Transform3D(-100, 0, -8.742278e-06, 0, 100, 0, 8.742278e-06, 0, -100, 0, 0, 0)
+
+[node name="EnvironmentManager" type="Node" parent="." unique_id=513938826]
+script = ExtResource("3_h2yge")
+
+[node name="SilverLakeMap" type="Node3D" parent="." unique_id=1534911571]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -560.8394, 0, 0)
+
+[node name="Sketchfab_Scene" parent="SilverLakeMap" unique_id=1876358117 instance=ExtResource("6_272bh")]
+transform = Transform3D(70, 0, 0, 0, 70, 0, 0, 0, 70, -2220.9517, 0, 0)
+
+[node name="chevron_grp_000_mdl_000_sub_000_material_137_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/chevron_grp_000_mdl_000_sub_000" parent_id_path=PackedInt32Array(1876358117, 526154300) index="0" unique_id=382771526]
+mesh = null
+
+[node name="chevron_grp_000_mdl_001_sub_000_material_137_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/chevron_grp_000_mdl_001_sub_000" parent_id_path=PackedInt32Array(1876358117, 1601678282) index="0" unique_id=1150764599]
+visible = false
+
+[node name="chevron_grp_000_mdl_002_sub_000_material_138_001_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/chevron_grp_000_mdl_002_sub_000" parent_id_path=PackedInt32Array(1876358117, 884133093) index="0" unique_id=67828668]
+mesh = null
+
+[node name="chevron_grp_000_mdl_003_sub_000_material_138_001_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/chevron_grp_000_mdl_003_sub_000" parent_id_path=PackedInt32Array(1876358117, 1303985574) index="0" unique_id=1072985826]
+mesh = null
+
+[node name="chevron_grp_000_mdl_004_sub_000_material_138_001_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/chevron_grp_000_mdl_004_sub_000" parent_id_path=PackedInt32Array(1876358117, 283017258) index="0" unique_id=260227449]
+mesh = null
+
+[node name="chevron_grp_000_mdl_005_sub_000_material_137_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/chevron_grp_000_mdl_005_sub_000" parent_id_path=PackedInt32Array(1876358117, 465470625) index="0" unique_id=1035461839]
+mesh = null
+
+[node name="chevron_grp_000_mdl_005_sub_001_material_138_001_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/chevron_grp_000_mdl_005_sub_001" parent_id_path=PackedInt32Array(1876358117, 1343167742) index="0" unique_id=452832636]
+mesh = null
+
+[node name="unit_000_sub_019_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_000_sub_019" parent_id_path=PackedInt32Array(1876358117, 425153016) index="0" unique_id=1443070864]
+mesh = null
+
+[node name="unit_001_sub_007_material_028_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_001_sub_007" parent_id_path=PackedInt32Array(1876358117, 1230787218) index="0" unique_id=138156873]
+mesh = null
+
+[node name="unit_001_sub_013_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_001_sub_013" parent_id_path=PackedInt32Array(1876358117, 1623442700) index="0" unique_id=2130729569]
+mesh = null
+
+[node name="unit_002_sub_023_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_002_sub_023" parent_id_path=PackedInt32Array(1876358117, 760726681) index="0" unique_id=790274410]
+mesh = null
+
+[node name="unit_003_sub_023_material_062_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_003_sub_023" parent_id_path=PackedInt32Array(1876358117, 1614479962) index="0" unique_id=513393860]
+mesh = null
+
+[node name="unit_005_sub_024_material_062_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_005_sub_024" parent_id_path=PackedInt32Array(1876358117, 339050210) index="0" unique_id=1066334089]
+mesh = null
+
+[node name="unit_007_sub_028_material_062_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_007_sub_028" parent_id_path=PackedInt32Array(1876358117, 1581206696) index="0" unique_id=738713385]
+mesh = null
+
+[node name="unit_008_sub_017_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_008_sub_017" parent_id_path=PackedInt32Array(1876358117, 1469923725) index="0" unique_id=253235326]
+mesh = null
+
+[node name="unit_009_sub_014_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_009_sub_014" parent_id_path=PackedInt32Array(1876358117, 1647327296) index="0" unique_id=753965082]
+mesh = null
+
+[node name="unit_009_sub_015_material_080_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_009_sub_015" parent_id_path=PackedInt32Array(1876358117, 1668166680) index="0" unique_id=560927812]
+mesh = null
+
+[node name="unit_009_sub_016_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_009_sub_016" parent_id_path=PackedInt32Array(1876358117, 772177735) index="0" unique_id=1431251311]
+visible = false
+
+[node name="unit_009_prop_000_mdl_001_lod_000_material_164_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_009_prop_000_mdl_001_lod_000" parent_id_path=PackedInt32Array(1876358117, 1308684316) index="0" unique_id=529588679]
+mesh = null
+
+[node name="unit_009_prop_001_mdl_001_lod_000_material_164_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_009_prop_001_mdl_001_lod_000" parent_id_path=PackedInt32Array(1876358117, 991774262) index="0" unique_id=643528411]
+mesh = null
+
+[node name="unit_009_prop_002_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_009_prop_002_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 2088148295) index="0" unique_id=1935014608]
+mesh = null
+
+[node name="unit_009_prop_003_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_009_prop_003_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 1988721964) index="0" unique_id=663111704]
+mesh = null
+
+[node name="unit_009_prop_004_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_009_prop_004_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 1471600890) index="0" unique_id=1314523447]
+mesh = null
+
+[node name="unit_010_sub_013_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_sub_013" parent_id_path=PackedInt32Array(1876358117, 36997461) index="0" unique_id=1548076511]
+mesh = null
+
+[node name="unit_010_sub_014_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_sub_014" parent_id_path=PackedInt32Array(1876358117, 1000838515) index="0" unique_id=28714599]
+mesh = null
+
+[node name="unit_010_prop_000_mdl_000_lod_000_material_163_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_000_mdl_000_lod_000" parent_id_path=PackedInt32Array(1876358117, 773942081) index="0" unique_id=727753776]
+mesh = null
+
+[node name="unit_010_prop_001_mdl_000_lod_000_material_163_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_001_mdl_000_lod_000" parent_id_path=PackedInt32Array(1876358117, 57589017) index="0" unique_id=623112954]
+mesh = null
+
+[node name="unit_010_prop_002_mdl_001_lod_000_material_164_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_002_mdl_001_lod_000" parent_id_path=PackedInt32Array(1876358117, 218974776) index="0" unique_id=222322168]
+mesh = null
+
+[node name="unit_010_prop_003_mdl_001_lod_000_material_164_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_003_mdl_001_lod_000" parent_id_path=PackedInt32Array(1876358117, 1673258712) index="0" unique_id=395848830]
+mesh = null
+
+[node name="unit_010_prop_004_mdl_001_lod_000_material_164_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_004_mdl_001_lod_000" parent_id_path=PackedInt32Array(1876358117, 225128123) index="0" unique_id=616249990]
+mesh = null
+
+[node name="unit_010_prop_005_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_005_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 865299979) index="0" unique_id=188715073]
+mesh = null
+
+[node name="unit_010_prop_006_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_006_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 1850389802) index="0" unique_id=1891426317]
+mesh = null
+
+[node name="unit_010_prop_007_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_007_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 1763854366) index="0" unique_id=129220819]
+mesh = null
+
+[node name="unit_010_prop_008_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_008_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 487661746) index="0" unique_id=49485445]
+mesh = null
+
+[node name="unit_010_prop_009_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_009_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 296954326) index="0" unique_id=733984046]
+mesh = null
+
+[node name="unit_010_prop_010_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_010_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 1358084238) index="0" unique_id=1810706929]
+mesh = null
+
+[node name="unit_010_prop_011_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_011_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 1045959829) index="0" unique_id=1940537993]
+mesh = null
+
+[node name="unit_010_prop_012_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_010_prop_012_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 26101232) index="0" unique_id=619841706]
+mesh = null
+
+[node name="unit_011_sub_007_material_028_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_011_sub_007" parent_id_path=PackedInt32Array(1876358117, 1042601036) index="0" unique_id=1564823104]
+mesh = null
+
+[node name="unit_011_sub_014_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_011_sub_014" parent_id_path=PackedInt32Array(1876358117, 58310425) index="0" unique_id=771881278]
+mesh = null
+
+[node name="unit_011_sub_015_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_011_sub_015" parent_id_path=PackedInt32Array(1876358117, 679787299) index="0" unique_id=1168393178]
+mesh = null
+
+[node name="unit_012_sub_008_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_012_sub_008" parent_id_path=PackedInt32Array(1876358117, 176892764) index="0" unique_id=913055892]
+mesh = null
+
+[node name="unit_012_sub_009_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_012_sub_009" parent_id_path=PackedInt32Array(1876358117, 1089976888) index="0" unique_id=2086099192]
+mesh = null
+
+[node name="unit_013_sub_015_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_013_sub_015" parent_id_path=PackedInt32Array(1876358117, 142492275) index="0" unique_id=898073363]
+mesh = null
+
+[node name="unit_013_sub_016_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_013_sub_016" parent_id_path=PackedInt32Array(1876358117, 14697151) index="0" unique_id=787519311]
+mesh = null
+
+[node name="unit_014_sub_015_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_sub_015" parent_id_path=PackedInt32Array(1876358117, 204454614) index="0" unique_id=198114810]
+mesh = null
+
+[node name="unit_014_sub_016_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_sub_016" parent_id_path=PackedInt32Array(1876358117, 34185201) index="0" unique_id=1997981354]
+mesh = null
+
+[node name="unit_014_prop_000_mdl_000_lod_000_material_163_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_prop_000_mdl_000_lod_000" parent_id_path=PackedInt32Array(1876358117, 547590336) index="0" unique_id=1933277028]
+mesh = null
+
+[node name="unit_014_prop_012_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_prop_012_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 222929738) index="0" unique_id=633111536]
+mesh = null
+
+[node name="unit_014_prop_013_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_prop_013_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 1165788112) index="0" unique_id=548003410]
+mesh = null
+
+[node name="unit_014_prop_014_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_prop_014_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 1442010027) index="0" unique_id=821263119]
+mesh = null
+
+[node name="unit_014_prop_015_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_prop_015_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 595888883) index="0" unique_id=996831267]
+mesh = null
+
+[node name="unit_014_prop_016_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_prop_016_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 1042874810) index="0" unique_id=393728496]
+mesh = null
+
+[node name="unit_014_prop_017_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_prop_017_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 2036478226) index="0" unique_id=837234139]
+mesh = null
+
+[node name="unit_014_prop_018_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_prop_018_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 240056363) index="0" unique_id=371526741]
+mesh = null
+
+[node name="unit_014_prop_019_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_014_prop_019_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 752160906) index="0" unique_id=929445370]
+mesh = null
+
+[node name="unit_015_sub_011_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_015_sub_011" parent_id_path=PackedInt32Array(1876358117, 1799865649) index="0" unique_id=716460259]
+mesh = null
+
+[node name="unit_015_prop_000_mdl_000_lod_000_material_163_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_015_prop_000_mdl_000_lod_000" parent_id_path=PackedInt32Array(1876358117, 360447147) index="0" unique_id=674298640]
+mesh = null
+
+[node name="unit_015_prop_009_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_015_prop_009_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 1773131391) index="0" unique_id=903593567]
+mesh = null
+
+[node name="unit_015_prop_010_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_015_prop_010_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 152601925) index="0" unique_id=1876728000]
+mesh = null
+
+[node name="unit_015_prop_011_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_015_prop_011_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 639323561) index="0" unique_id=1073517685]
+mesh = null
+
+[node name="unit_015_prop_012_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_015_prop_012_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 481891489) index="0" unique_id=1754356096]
+mesh = null
+
+[node name="unit_015_prop_013_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_015_prop_013_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 1580987475) index="0" unique_id=109690555]
+mesh = null
+
+[node name="unit_015_prop_014_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_015_prop_014_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 1696694005) index="0" unique_id=327297108]
+mesh = null
+
+[node name="unit_015_prop_015_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_015_prop_015_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 644455280) index="0" unique_id=621312673]
+mesh = null
+
+[node name="unit_015_prop_016_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_015_prop_016_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 1802985348) index="0" unique_id=995579194]
+mesh = null
+
+[node name="unit_016_sub_014_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_016_sub_014" parent_id_path=PackedInt32Array(1876358117, 1769029025) index="0" unique_id=318672908]
+mesh = null
+
+[node name="unit_016_prop_000_mdl_000_lod_000_material_163_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_016_prop_000_mdl_000_lod_000" parent_id_path=PackedInt32Array(1876358117, 112398275) index="0" unique_id=151506962]
+mesh = null
+
+[node name="unit_016_prop_001_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_016_prop_001_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 2049255774) index="0" unique_id=665702547]
+mesh = null
+
+[node name="unit_016_prop_002_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_016_prop_002_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 1053031165) index="0" unique_id=2090996961]
+mesh = null
+
+[node name="unit_016_prop_003_mdl_002_lod_000_material_165_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_016_prop_003_mdl_002_lod_000" parent_id_path=PackedInt32Array(1876358117, 841269176) index="0" unique_id=952059402]
+mesh = null
+
+[node name="unit_016_prop_005_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_016_prop_005_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 1108866300) index="0" unique_id=1969591888]
+mesh = null
+
+[node name="unit_016_prop_006_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_016_prop_006_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 428249234) index="0" unique_id=2013658917]
+mesh = null
+
+[node name="unit_016_prop_007_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_016_prop_007_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 577244146) index="0" unique_id=740804439]
+mesh = null
+
+[node name="unit_016_prop_008_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_016_prop_008_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 1739507207) index="0" unique_id=359468156]
+mesh = null
+
+[node name="unit_016_prop_009_mdl_003_lod_000_material_166_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_016_prop_009_mdl_003_lod_000" parent_id_path=PackedInt32Array(1876358117, 920802086) index="0" unique_id=690811934]
+mesh = null
+
+[node name="unit_018_sub_026_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_018_sub_026" parent_id_path=PackedInt32Array(1876358117, 392623460) index="0" unique_id=168263997]
+mesh = null
+
+[node name="unit_019_sub_015_material_028_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_019_sub_015" parent_id_path=PackedInt32Array(1876358117, 1868094167) index="0" unique_id=1577340747]
+mesh = null
+
+[node name="unit_020_sub_020_material_115_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_020_sub_020" parent_id_path=PackedInt32Array(1876358117, 2060975565) index="0" unique_id=738567880]
+mesh = null
+
+[node name="unit_021_sub_023_material_115_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_021_sub_023" parent_id_path=PackedInt32Array(1876358117, 1622057797) index="0" unique_id=1104251353]
+mesh = null
+
+[node name="unit_022_sub_014_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_022_sub_014" parent_id_path=PackedInt32Array(1876358117, 919408540) index="0" unique_id=424851888]
+mesh = null
+
+[node name="unit_023_sub_022_material_080_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_023_sub_022" parent_id_path=PackedInt32Array(1876358117, 1192730099) index="0" unique_id=2102194231]
+mesh = null
+
+[node name="unit_024_sub_014_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_024_sub_014" parent_id_path=PackedInt32Array(1876358117, 87555071) index="0" unique_id=41208168]
+mesh = null
+
+[node name="unit_025_sub_008_material_028_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_025_sub_008" parent_id_path=PackedInt32Array(1876358117, 252913838) index="0" unique_id=611226095]
+mesh = null
+
+[node name="unit_025_sub_015_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_025_sub_015" parent_id_path=PackedInt32Array(1876358117, 1213644592) index="0" unique_id=1409391196]
+mesh = null
+
+[node name="unit_027_sub_025_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_027_sub_025" parent_id_path=PackedInt32Array(1876358117, 729852534) index="0" unique_id=2040826032]
+mesh = null
+
+[node name="unit_028_sub_017_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_028_sub_017" parent_id_path=PackedInt32Array(1876358117, 1384238436) index="0" unique_id=777930638]
+mesh = null
+
+[node name="unit_028_sub_018_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_028_sub_018" parent_id_path=PackedInt32Array(1876358117, 450287045) index="0" unique_id=1545790996]
+mesh = null
+
+[node name="unit_029_sub_008_material_028_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_029_sub_008" parent_id_path=PackedInt32Array(1876358117, 1136255343) index="0" unique_id=735760316]
+mesh = null
+
+[node name="unit_029_sub_015_material_074_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_029_sub_015" parent_id_path=PackedInt32Array(1876358117, 391070444) index="0" unique_id=449439338]
+mesh = null
+
+[node name="unit_029_sub_016_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_029_sub_016" parent_id_path=PackedInt32Array(1876358117, 599710810) index="0" unique_id=895763040]
+mesh = null
+
+[node name="unit_031_sub_018_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_031_sub_018" parent_id_path=PackedInt32Array(1876358117, 102960127) index="0" unique_id=163224480]
+mesh = null
+
+[node name="unit_032_sub_019_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_032_sub_019" parent_id_path=PackedInt32Array(1876358117, 1582378845) index="0" unique_id=1250986008]
+mesh = null
+
+[node name="unit_033_sub_022_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_033_sub_022" parent_id_path=PackedInt32Array(1876358117, 759920654) index="0" unique_id=656205249]
+mesh = null
+
+[node name="unit_034_sub_019_material_019_002_0" parent="SilverLakeMap/Sketchfab_Scene/Sketchfab_model/silverlakecleaned_fbx/RootNode/unit_034_sub_019" parent_id_path=PackedInt32Array(1876358117, 505971421) index="0" unique_id=1780784778]
+mesh = null
+
+[node name="MapBuilder" type="Node" parent="." unique_id=1402788174 node_paths=PackedStringArray("target_map")]
+script = ExtResource("7_5vw27")
+target_map = NodePath("../SilverLakeMap")
+
+[node name="SpawnPoint" type="Marker3D" parent="." unique_id=1501891953]
+transform = Transform3D(0.41073468, 0, -0.9117549, 0, 1, 0, 0.9117549, 0, 0.41073468, 740.3494, 107.513466, 1304.0707)
+script = ExtResource("8_5vw27")
+
+[node name="LoadingScreen" type="Node" parent="." unique_id=1876458615]
+script = ExtResource("14_w48qg")
+logo_sound = ExtResource("15_vivmo")
+age_sound = ExtResource("20_d13ii")
+ambient_sound = ExtResource("21_1u8w0")
+credit_line_1 = "DEVELOPER"
+credit_line_2 = "Maksymilian Wojciech Wazny"
+credit_line_4 = "MUSIC COMPOSER"
+credit_line_5 = "Noah Bell"
+credit_line_7 = " RADIO HOST"
+credit_line_8 = "ANGUS MCBRID + EDWARD POJAR"
+credit_line_10 = "Made In Godot 4"
+
+[node name="MainMenu" type="Node" parent="." unique_id=1121213977]
+script = ExtResource("16_2cqfq")
+click_sound = ExtResource("23_0odxb")
+
+[node name="SpeedTrap" type="Area3D" parent="." unique_id=302660843]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 588.7656, 105.46834, 1104.4268)
+script = ExtResource("25_0odxb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SpeedTrap" unique_id=1149015667]
+transform = Transform3D(-0.3379447, 0, 2.0691495, 0, 1, 0, -0.40559945, 0, -1.7240112, 1.6202393, 4.788513, 0.16699219)
+shape = SubResource("BoxShape3D_lswn8")
+
+[node name="SpeedTrap2" type="Area3D" parent="." unique_id=1272211263]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 229.615, 112.67147, 1372.0729)
+script = ExtResource("25_0odxb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SpeedTrap2" unique_id=571863738]
+transform = Transform3D(-0.3379447, 0, 2.0691495, 0, 1, 0, -0.40559945, 0, -1.7240112, 1.6202393, 4.788513, 0.16699219)
+shape = SubResource("BoxShape3D_lswn8")
+
+[node name="SpeedTrap3" type="Area3D" parent="." unique_id=49792687]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 659.0808, 121.14534, 2126.2588)
+script = ExtResource("25_0odxb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SpeedTrap3" unique_id=572975892]
+transform = Transform3D(-0.3379447, 0, 2.0691495, 0, 1, 0, -0.40559945, 0, -1.7240112, 1.6202393, 4.788513, 0.16699219)
+shape = SubResource("BoxShape3D_lswn8")
+
+[node name="SpeedTrap4" type="Area3D" parent="." unique_id=334952725]
+transform = Transform3D(0.6946458, 0, -0.71935195, 0, 1, 0, 0.71935195, 0, 0.6946458, 1238.0822, 105.722, 1748.3175)
+script = ExtResource("25_0odxb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SpeedTrap4" unique_id=1438066321]
+transform = Transform3D(-0.3379447, 0, 2.0691495, 0, 1, 0, -0.40559945, 0, -1.7240112, 1.6202393, 4.788513, 0.16699219)
+shape = SubResource("BoxShape3D_lswn8")
+
+[node name="SpeedTrap5" type="Area3D" parent="." unique_id=81801593]
+transform = Transform3D(0.9393759, 0, -0.34288928, 0, 1, 0, 0.34288928, 0, 0.9393759, -3788.894, 293.78836, 1357.2314)
+script = ExtResource("25_0odxb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SpeedTrap5" unique_id=1702434225]
+transform = Transform3D(-0.3379447, 0, 2.0691495, 0, 1, 0, -0.40559945, 0, -1.7240112, 1.6202393, 4.788513, 0.16699219)
+shape = SubResource("BoxShape3D_lswn8")
+
+[node name="SpeedTrap6" type="Area3D" parent="." unique_id=87370953]
+transform = Transform3D(0.9393759, 0, -0.34288928, 0, 1, 0, 0.34288928, 0, 0.9393759, -4332.8267, 293.78836, 1312.9552)
+script = ExtResource("25_0odxb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SpeedTrap6" unique_id=797554364]
+transform = Transform3D(-0.3379447, 0, 2.0691495, 0, 1, 0, -0.40559945, 0, -1.7240112, 1.6202393, 4.788513, 0.16699219)
+shape = SubResource("BoxShape3D_lswn8")
+
+[node name="SpeedTrap7" type="Area3D" parent="." unique_id=570350540]
+transform = Transform3D(-0.25390992, 0, -0.9672278, 0, 1, 0, 0.9672278, 0, -0.25390992, -4859.3584, 293.78836, 612.65643)
+script = ExtResource("25_0odxb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SpeedTrap7" unique_id=2095456950]
+transform = Transform3D(-0.3379447, 0, 2.0691495, 0, 1, 0, -0.40559945, 0, -1.7240112, -1.6081543, 4.530426, 2.8554688)
+shape = SubResource("BoxShape3D_lswn8")
+
+[node name="SpeedTrap8" type="Area3D" parent="." unique_id=2064646110]
+transform = Transform3D(-0.25390992, 0, -0.9672278, 0, 1, 0, 0.9672278, 0, -0.25390992, -4697.79, 293.78836, 221.27824)
+script = ExtResource("25_0odxb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SpeedTrap8" unique_id=81413752]
+transform = Transform3D(-0.3379447, 0, 2.0691495, 0, 1, 0, -0.40559945, 0, -1.7240112, -1.6081543, 4.530426, 2.8554688)
+shape = SubResource("BoxShape3D_lswn8")
+
+[node name="Race1" type="Node" parent="." unique_id=104839669 node_paths=PackedStringArray("player_car")]
+script = ExtResource("27_a6jrf")
+player_car = NodePath("../PlayerCar")
+time_3_star = 50.0
+
+[node name="StartLine" type="Area3D" parent="Race1" unique_id=1695473656]
+transform = Transform3D(0.8951445, 0, 0.44577605, 0, 1, 0, -0.44577605, 0, 0.8951445, 790.3306, 105.14026, 1345.8328)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Race1/StartLine" unique_id=280540330]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6290894, 4.1957397, 0.00012207031)
+shape = SubResource("BoxShape3D_xuqvo")
+
+[node name="FinishLine" type="Area3D" parent="Race1" unique_id=651923000]
+transform = Transform3D(-0.79487026, 0, -0.60677946, 0, 1, 0, 0.60677946, 0, -0.79487026, 363.1376, 152.3075, 1758.7892)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Race1/FinishLine" unique_id=405536331]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6290894, 4.1957397, 0.00012207031)
+shape = SubResource("BoxShape3D_xuqvo")
+
+[node name="Race2" type="Node" parent="." unique_id=1034123442 node_paths=PackedStringArray("player_car")]
+script = ExtResource("27_a6jrf")
+player_car = NodePath("../PlayerCar")
+time_1_star = 120.0
+
+[node name="StartLine" type="Area3D" parent="Race2" unique_id=1863820784]
+transform = Transform3D(0.8951445, 0, 0.44577605, 0, 1, 0, -0.44577605, 0, 0.8951445, 758.04675, 100.92432, 1929.1315)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Race2/StartLine" unique_id=392703797]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6290894, 4.1957397, 0.00012207031)
+shape = SubResource("BoxShape3D_xuqvo")
+
+[node name="FinishLine" type="Area3D" parent="Race2" unique_id=826355082]
+transform = Transform3D(-0.79487026, 0, -0.60677946, 0, 1, 0, 0.60677946, 0, -0.79487026, 163.27455, 111.00518, 1308.7521)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Race2/FinishLine" unique_id=2129811280]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6290894, 4.1957397, 0.00012207031)
+shape = SubResource("BoxShape3D_xuqvo")
+
+[node name="Race3" type="Node" parent="." unique_id=1555249988 node_paths=PackedStringArray("player_car")]
+script = ExtResource("27_a6jrf")
+player_car = NodePath("../PlayerCar")
+time_3_star = 40.0
+time_2_star = 100.0
+time_1_star = 150.0
+
+[node name="StartLine" type="Area3D" parent="Race3" unique_id=670044674]
+transform = Transform3D(0.9994572, 0, 0.03294587, 0, 1, 0, -0.03294587, 0, 0.9994572, -3456.9846, 290.2593, 1036.2987)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Race3/StartLine" unique_id=1318633077]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6290894, 4.1957397, 0.00012207031)
+shape = SubResource("BoxShape3D_xuqvo")
+
+[node name="FinishLine" type="Area3D" parent="Race3" unique_id=34284567]
+transform = Transform3D(0.16032907, 0, -0.98706365, 0, 1, 0, 0.98706365, 0, 0.16032907, -4444.3413, 290.58936, 70.29817)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Race3/FinishLine" unique_id=1605257993]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6290894, 4.1957397, 0.00012207031)
+shape = SubResource("BoxShape3D_xuqvo")
+
+[node name="PoliceCar" type="CharacterBody3D" parent="." unique_id=1886432611]
+transform = Transform3D(0.64912945, 0, -0.76067793, 0, 1, 0, 0.76067793, 0, 0.64912945, 698.0594, 104.25764, 1223.7992)
+script = ExtResource("28_kq58d")
+police_speech = Array[AudioStream]([ExtResource("29_facbu"), ExtResource("30_b1qrp"), ExtResource("31_come4"), ExtResource("32_h8e4i"), ExtResource("33_4lmeg"), ExtResource("34_0cp0l"), ExtResource("35_d2t1y"), ExtResource("36_come4")])
+spotted_sound = ExtResource("36_come4")
+lost_sound = ExtResource("37_h8e4i")
+
+[node name="Sketchfab_Scene" parent="PoliceCar" unique_id=87962355 instance=ExtResource("29_seu75")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.9143677, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoliceCar" unique_id=1288131062]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.39770508, 0.8815079, -0.021240234)
+shape = SubResource("CapsuleShape3D_jq2sk")
+
+[node name="DetectionZone" type="Area3D" parent="PoliceCar" unique_id=111379401]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8925476, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoliceCar/DetectionZone" unique_id=2068900354]
+transform = Transform3D(75, 0, 0, 0, 75, 0, 0, 0, 75, 0, 0, 0)
+shape = SubResource("SphereShape3D_4k2k6")
+
+[node name="BustZone" type="Area3D" parent="PoliceCar" unique_id=1713266545]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9019165, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoliceCar/BustZone" unique_id=994735559]
+transform = Transform3D(18, 0, 0, 0, 18, 0, 0, 0, 18, 0, 0, 0)
+shape = SubResource("SphereShape3D_0rl1p")
+
+[node name="SirenAudio" type="AudioStreamPlayer3D" parent="PoliceCar" unique_id=1712574731]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3626785, 0)
+stream = ExtResource("30_htxhm")
+
+[node name="RayCasts" type="Node3D" parent="PoliceCar" unique_id=994927826]
+
+[node name="FrontRay" type="RayCast3D" parent="PoliceCar/RayCasts" unique_id=1627509681]
+target_position = Vector3(0, 0, -15)
+
+[node name="LeftRay" type="RayCast3D" parent="PoliceCar/RayCasts" unique_id=614518744]
+target_position = Vector3(-5, 0, -10)
+
+[node name="RightRay" type="RayCast3D" parent="PoliceCar/RayCasts" unique_id=824739650]
+target_position = Vector3(5, 0, -10)
+
+[node name="PoliceCar2" type="CharacterBody3D" parent="." unique_id=588391238]
+transform = Transform3D(0.64912945, 0, -0.76067793, 0, 1, 0, 0.76067793, 0, 0.64912945, -3584.3027, 292.65945, 1173.6376)
+script = ExtResource("28_kq58d")
+police_speech = Array[AudioStream]([ExtResource("29_facbu"), ExtResource("30_b1qrp"), ExtResource("31_come4"), ExtResource("32_h8e4i"), ExtResource("33_4lmeg"), ExtResource("34_0cp0l"), ExtResource("35_d2t1y"), ExtResource("36_come4")])
+spotted_sound = ExtResource("36_come4")
+lost_sound = ExtResource("37_h8e4i")
+
+[node name="Sketchfab_Scene" parent="PoliceCar2" unique_id=1708045494 instance=ExtResource("29_seu75")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.9143677, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoliceCar2" unique_id=2107274404]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.39770508, 0.8815079, -0.021240234)
+shape = SubResource("CapsuleShape3D_jq2sk")
+
+[node name="DetectionZone" type="Area3D" parent="PoliceCar2" unique_id=1355504835]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8925476, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoliceCar2/DetectionZone" unique_id=715759052]
+transform = Transform3D(75, 0, 0, 0, 75, 0, 0, 0, 75, 0, 0, 0)
+shape = SubResource("SphereShape3D_4k2k6")
+
+[node name="BustZone" type="Area3D" parent="PoliceCar2" unique_id=926653600]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9019165, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoliceCar2/BustZone" unique_id=1327208327]
+transform = Transform3D(18, 0, 0, 0, 18, 0, 0, 0, 18, 0, 0, 0)
+shape = SubResource("SphereShape3D_0rl1p")
+
+[node name="SirenAudio" type="AudioStreamPlayer3D" parent="PoliceCar2" unique_id=1380068941]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3626785, 0)
+stream = ExtResource("30_htxhm")
+
+[node name="RayCasts" type="Node3D" parent="PoliceCar2" unique_id=2122128423]
+
+[node name="FrontRay" type="RayCast3D" parent="PoliceCar2/RayCasts" unique_id=1216362939]
+target_position = Vector3(0, 0, -15)
+
+[node name="LeftRay" type="RayCast3D" parent="PoliceCar2/RayCasts" unique_id=897815378]
+target_position = Vector3(-5, 0, -10)
+
+[node name="RightRay" type="RayCast3D" parent="PoliceCar2/RayCasts" unique_id=1460833824]
+target_position = Vector3(5, 0, -10)
+
+[node name="PoliceCar3" type="CharacterBody3D" parent="." unique_id=823582515]
+transform = Transform3D(-0.98608035, 0, -0.16626954, 0, 1, 0, 0.16626954, 0, -0.98608035, -4798.666, 293.21814, 558.08276)
+script = ExtResource("28_kq58d")
+police_speech = Array[AudioStream]([ExtResource("29_facbu"), ExtResource("30_b1qrp"), ExtResource("31_come4"), ExtResource("32_h8e4i"), ExtResource("33_4lmeg"), ExtResource("34_0cp0l"), ExtResource("35_d2t1y"), ExtResource("36_come4")])
+spotted_sound = ExtResource("36_come4")
+lost_sound = ExtResource("37_h8e4i")
+
+[node name="Sketchfab_Scene" parent="PoliceCar3" unique_id=1233611688 instance=ExtResource("29_seu75")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.9143677, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoliceCar3" unique_id=1500722657]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.39770508, 0.8815079, -0.021240234)
+shape = SubResource("CapsuleShape3D_jq2sk")
+
+[node name="DetectionZone" type="Area3D" parent="PoliceCar3" unique_id=1794189936]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8925476, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoliceCar3/DetectionZone" unique_id=826817562]
+transform = Transform3D(75, 0, 0, 0, 75, 0, 0, 0, 75, 0, 0, 0)
+shape = SubResource("SphereShape3D_4k2k6")
+
+[node name="BustZone" type="Area3D" parent="PoliceCar3" unique_id=620189326]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9019165, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoliceCar3/BustZone" unique_id=302373072]
+transform = Transform3D(18, 0, 0, 0, 18, 0, 0, 0, 18, 0, 0, 0)
+shape = SubResource("SphereShape3D_0rl1p")
+
+[node name="SirenAudio" type="AudioStreamPlayer3D" parent="PoliceCar3" unique_id=695215881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3626785, 0)
+stream = ExtResource("30_htxhm")
+
+[node name="RayCasts" type="Node3D" parent="PoliceCar3" unique_id=1374038313]
+
+[node name="FrontRay" type="RayCast3D" parent="PoliceCar3/RayCasts" unique_id=786104996]
+target_position = Vector3(0, 0, -15)
+
+[node name="LeftRay" type="RayCast3D" parent="PoliceCar3/RayCasts" unique_id=883335138]
+target_position = Vector3(-5, 0, -10)
+
+[node name="RightRay" type="RayCast3D" parent="PoliceCar3/RayCasts" unique_id=850735947]
+target_position = Vector3(5, 0, -10)
+
+[node name="Garage" type="Area3D" parent="." unique_id=1464078458]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 615.60425, 106.78278, 1160.0587)
+script = ExtResource("41_0cp0l")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Garage" unique_id=899809078]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+shape = SubResource("BoxShape3D_4lmeg")
+
+[node name="Garage2" type="Area3D" parent="." unique_id=1137622874]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4243.188, 300.83316, 1447.7937)
+script = ExtResource("41_0cp0l")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Garage2" unique_id=159160025]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+shape = SubResource("BoxShape3D_4lmeg")
+
+[node name="Garage3" type="Area3D" parent="." unique_id=1694360151]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3456.93, 292.68015, 568.39355)
+script = ExtResource("41_0cp0l")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Garage3" unique_id=1834337496]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+shape = SubResource("BoxShape3D_4lmeg")
+
+[node name="SundownMap" type="StaticBody3D" parent="." unique_id=1646842112]
+script = ExtResource("46_f6a44")
+
+[node name="Sketchfab_Scene" parent="SundownMap" unique_id=1972942407 instance=ExtResource("46_wnkbs")]
+transform = Transform3D(70, 0, 0, 0, 70, 0, 0, 0, 70, -3156.3835, 410.21542, 0)
+
+[node name="backdrop_grp_022_mdl_001_sub_000_material_080_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/backdrop_grp_022_mdl_001_sub_000" parent_id_path=PackedInt32Array(1972942407, 363726153) index="0" unique_id=960280993]
+visible = false
+
+[node name="chevron_grp_000_mdl_001_sub_000_material_139_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/chevron_grp_000_mdl_001_sub_000" parent_id_path=PackedInt32Array(1972942407, 1940343882) index="0" unique_id=789530131]
+visible = false
+
+[node name="chevron_grp_000_mdl_002_sub_000_material_139_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/chevron_grp_000_mdl_002_sub_000" parent_id_path=PackedInt32Array(1972942407, 164105433) index="0" unique_id=1916439452]
+visible = false
+
+[node name="chevron_grp_000_mdl_003_sub_001_material_140_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/chevron_grp_000_mdl_003_sub_001" parent_id_path=PackedInt32Array(1972942407, 222688603) index="0" unique_id=479137794]
+visible = false
+
+[node name="chevron_grp_000_mdl_004_sub_001_material_140_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/chevron_grp_000_mdl_004_sub_001" parent_id_path=PackedInt32Array(1972942407, 1566836332) index="0" unique_id=178338599]
+mesh = null
+
+[node name="chevron_grp_000_mdl_005_sub_000_material_139_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/chevron_grp_000_mdl_005_sub_000" parent_id_path=PackedInt32Array(1972942407, 47721610) index="0" unique_id=1484345715]
+visible = false
+
+[node name="chevron_grp_000_mdl_005_sub_001_material_140_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/chevron_grp_000_mdl_005_sub_001" parent_id_path=PackedInt32Array(1972942407, 1361442000) index="0" unique_id=84258065]
+mesh = null
+
+[node name="chevron_grp_000_mdl_006_sub_001_material_140_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/chevron_grp_000_mdl_006_sub_001" parent_id_path=PackedInt32Array(1972942407, 1493430037) index="0" unique_id=12579531]
+visible = false
+
+[node name="prop_435_mdl_009_dmg_000_lod_000_material_191_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_435_mdl_009_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 67468241) index="0" unique_id=1339011495]
+mesh = null
+
+[node name="prop_436_mdl_009_dmg_000_lod_000_material_191_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_436_mdl_009_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 1447559983) index="0" unique_id=664958795]
+mesh = null
+
+[node name="prop_437_mdl_009_dmg_000_lod_000_material_191_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_437_mdl_009_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 1836880242) index="0" unique_id=227757833]
+mesh = null
+
+[node name="prop_438_mdl_009_dmg_000_lod_000_material_191_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_438_mdl_009_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 1212687641) index="0" unique_id=1518176585]
+mesh = null
+
+[node name="prop_487_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_487_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 1854905345) index="0" unique_id=1268693688]
+mesh = null
+
+[node name="prop_490_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_490_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 307792296) index="0" unique_id=1054804550]
+mesh = null
+
+[node name="prop_492_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_492_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 530591923) index="0" unique_id=1062629538]
+mesh = null
+
+[node name="prop_493_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_493_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 2004314206) index="0" unique_id=1746341202]
+mesh = null
+
+[node name="prop_494_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_494_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 139789690) index="0" unique_id=219602472]
+mesh = null
+
+[node name="prop_495_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_495_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 1949391060) index="0" unique_id=344658098]
+mesh = null
+
+[node name="prop_496_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_496_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 341147830) index="0" unique_id=882271349]
+mesh = null
+
+[node name="prop_497_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_497_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 88612387) index="0" unique_id=66886988]
+mesh = null
+
+[node name="prop_498_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_498_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 474484752) index="0" unique_id=375151368]
+mesh = null
+
+[node name="prop_499_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_499_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 769308290) index="0" unique_id=2100327684]
+mesh = null
+
+[node name="prop_502_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_502_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 319936073) index="0" unique_id=1784113915]
+mesh = null
+
+[node name="prop_503_mdl_012_dmg_000_lod_000_material_193_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_503_mdl_012_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 1648688402) index="0" unique_id=2109584712]
+mesh = null
+
+[node name="prop_541_mdl_007_dmg_000_lod_000_material_189_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/prop_541_mdl_007_dmg_000_lod_000" parent_id_path=PackedInt32Array(1972942407, 523720733) index="0" unique_id=1146290361]
+mesh = null
+
+[node name="unit_007_sub_007_material_031_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/unit_007_sub_007" parent_id_path=PackedInt32Array(1972942407, 1614189373) index="0" unique_id=1220140938]
+visible = false
+
+[node name="unit_007_sub_009_material_053_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/unit_007_sub_009" parent_id_path=PackedInt32Array(1972942407, 1464398399) index="0" unique_id=522748583]
+visible = false
+
+[node name="unit_028_inst_086_mdl_053_lod_000_material_144_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/unit_028_inst_086_mdl_053_lod_000" parent_id_path=PackedInt32Array(1972942407, 1573450802) index="0" unique_id=804594580]
+mesh = null
+
+[node name="unit_043_sub_003_material_118_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/unit_043_sub_003" parent_id_path=PackedInt32Array(1972942407, 25285032) index="0" unique_id=1811587698]
+mesh = null
+
+[node name="unit_044_sub_003_material_116_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/unit_044_sub_003" parent_id_path=PackedInt32Array(1972942407, 1340914539) index="0" unique_id=1733374663]
+visible = false
+
+[node name="unit_045_sub_005_material_116_0" parent="SundownMap/Sketchfab_Scene/Sketchfab_model/STATICout_fbx/RootNode/unit_045_sub_005" parent_id_path=PackedInt32Array(1972942407, 935654791) index="0" unique_id=1909497559]
+mesh = null
+
+[node name="SundownSpawn" type="Marker3D" parent="." unique_id=1558253801]
+transform = Transform3D(0.4430243, 0, -0.8965096, 0, 1, 0, 0.8965096, 0, 0.4430243, -3934.6753, 299.01443, 1692.9419)
+
+[node name="MainSpawn" type="Marker3D" parent="." unique_id=49421076]
+transform = Transform3D(0.3589708, 0, -0.9333489, 0, 1, 0, 0.9333489, 0, 0.3589708, 652.2672, 108.26344, 1113.5375)
+
+[node name="TunnelToSundown" type="Area3D" parent="." unique_id=1156705574 node_paths=PackedStringArray("destination_marker")]
+transform = Transform3D(0.56958085, 0, 0.8219353, 0, 1, 0, -0.8219353, 0, 0.56958085, 660.4651, 106.266174, 1107.4314)
+script = ExtResource("47_f6a44")
+destination_marker = NodePath("../SundownSpawn")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TunnelToSundown" unique_id=1940424520]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2398071, 2.3448486, 1.3395996)
+shape = SubResource("BoxShape3D_f6a44")
+
+[node name="TunnelToMain" type="Area3D" parent="." unique_id=948239651 node_paths=PackedStringArray("destination_marker")]
+transform = Transform3D(0.84659374, 0, -1.7339737, 0, 2.0547485, 0, 1.0243386, 0, 1.4330919, -3925.0322, 300.09033, 1699.157)
+script = ExtResource("47_f6a44")
+destination_marker = NodePath("../MainSpawn")
+location_name = "MAIN CITY"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TunnelToMain" unique_id=988767807]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2398071, 2.3448486, 1.3395996)
+shape = SubResource("BoxShape3D_f6a44")
+
+[editable path="Pigeon308/PigeonMesh"]
+[editable path="ShittaRapid/ShittaMesh"]
+[editable path="Dam1500/DamMesh"]
+[editable path="GoatgenieSenarioSter/GoatgenieMesh"]
+[editable path="SilverLakeMap/Sketchfab_Scene"]
+[editable path="SundownMap/Sketchfab_Scene"]
